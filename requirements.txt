@@ -1,0 +1,19 @@
+# Core Deep Learning Framework
+# Note: For GPU support, install PyTorch with CUDA according to https://pytorch.org
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Critical: pinned to 0.4.12 for API compatibility with upstream ViC-MAE VisionTransformer
+timm==0.4.12
+
+# Interactive Web Demos & Plotting
+Flask>=2.0.0
+matplotlib>=3.5.0
+Pillow>=8.0.0
+
+# Video Processing (for Temporal Extension)
+opencv-python>=4.5.0
+
+# Scientific Computing & Metrics
+numpy>=1.21.0
+

@@ -1,0 +1,62 @@
+# Large checkpoints & weights
+*.pth
+*.pt
+*.bin
+*.zip
+*.tar.gz
+*.tar
+
+# Reports & local papers (not for public repo)
+PROJECT_REPORT.md
+project_report.md
+PROJECT_REPORT.tex
+*.tex
+*.pdf
+
+# Dataset (download separately via setup_tiny_imagenet.py)
+tiny-imagenet-200/
+tiny-imagenet-200.zip
+
+# Cloned upstream repository (cloned separately)
+ViC-MAE/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+output__/
+output_2/
+*.tmp
+*.bak
+
+# Virtual environments
+vicmae_venv/
+env/
+venv/
+ENV/
+
+# Scratch & test scripts
+/test/
+/test_*.py
+*.ps1
+!extension/test_extension.py
+
+# Environment & logs
+.env
+*.log
+
+# OS & IDE metadata
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Experiment tracking
+wandb/
